@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pie.edu.touristguide.View.Bag.AddItem"
+    android:orientation="vertical" >
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:popupTheme="@style/Base.ThemeOverlay.AppCompat.Light"
+        android:background="@color/colorPrimary"
+        android:id="@+id/save_data_toolbar"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginRight="16dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:popupTheme="@style/Base.ThemeOverlay.AppCompat.Light"
+                android:src="@drawable/ic_close"
+                android:id="@+id/iv_cancel" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:popupTheme="@style/Base.ThemeOverlay.AppCompat.Light"
+                android:src="@drawable/ic_add"
+                android:id="@+id/iv_add"
+                android:layout_alignParentEnd="true"
+                />
+        </RelativeLayout>
+    </Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:id="@+id/lbl_title"
+                android:text="Title"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rectangle"
+                android:id="@+id/et_title"
+                android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:id="@+id/lbl_weight"
+                android:text="Weight"
+                android:textSize="24sp"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rectangle"
+                android:id="@+id/et_weight"
+                android:textSize="24sp"/>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4">
+            <CheckBox android:id="@+id/cb_liquid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liquid"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

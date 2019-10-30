@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+
+        <item android:id="@+id/conditional_reminder"
+            android:icon="@drawable/ic_conditional_reminder"
+            android:title="Conditional Reminder"/>
+
+        <item android:id="@+id/fitness"
+            android:icon="@drawable/ic_fitness"
+            android:title="Fitness"/>
+
+        <item android:id="@+id/virtual_bag"
+            android:icon="@drawable/ic_virtual_bag"
+            android:title="Virtual Bag"/>
+
+        <item android:id="@+id/photo_location"
+            android:icon="@drawable/ic_photo_location"
+            android:title="Memories"/>
+
+        <item android:id="@+id/contact"
+            android:icon="@drawable/ic_contact"
+            android:title="Contact"/>
+
+        <item android:id="@+id/holidays"
+            android:icon="@drawable/ic_holidays"
+            android:title="Holidays"/>
+
+        <item android:id="@+id/weather"
+            android:icon="@drawable/ic_weather"
+            android:title="Weather"/>
+
+        <item android:id="@+id/currency_conversion"
+            android:icon="@drawable/ic_currency_conversion"
+            android:title="Currency Conversion"/>
+
+        <item android:id="@+id/language_learning"
+            android:icon="@drawable/ic_translate_black_24dp"
+            android:title="Translation"/>
+
+        <item android:id="@+id/fraud_checker"
+            android:icon="@drawable/ic_security_black_24dp"
+            android:title="Fraud Checker"/>
+
+        <item android:id="@+id/logout"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Log out"/>
+    </group>
+</menu>

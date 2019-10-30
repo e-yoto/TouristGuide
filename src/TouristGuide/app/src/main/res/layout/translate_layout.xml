@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="pie.edu.touristguide.View.Translation.Translate.TranslateFragment">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/transMenuHead"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:maxHeight="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/translation_image"
+        android:layout_marginBottom="50dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_gravity="center"
+        >
+
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter original text:" />
+
+    <EditText
+        android:id="@+id/input_originalText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:layout_gravity="center"
+        android:hint=" ex: Where is the hotel?"
+        android:gravity="start"
+        android:inputType="text"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/btn_translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Translate"/>
+
+        <Button
+            android:id="@+id/btn_speak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listen"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Translated text:" />
+
+    <TextView
+        android:id="@+id/output_translatedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:hint="Enter text to see a translation"
+        android:textSize="20dp"
+        android:gravity="start" />
+
+</LinearLayout>

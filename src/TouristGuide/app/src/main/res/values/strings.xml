@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">TouristGuide</string>
+
+    <!-- array of currencies -->
+    <string-array name="currencies">
+        <item>Canadian Dollar</item>
+        <item>American Dollar</item>
+        <item>European Euro</item>
+        <item>Chinese Renminbi</item>
+        <item>Indian Rupee</item>
+        <item>Philippine Peso</item>
+        <item>Australian Dollar</item>
+        <item>Hong Kong Dollar</item>
+        <item>Mexican Peso</item>
+        <item>Bulgarian Lev</item>
+        <item>New Zealand Dollar</item>
+        <item>Israeli New Shekels</item>
+        <item>Russian Ruble</item>
+        <item>Swiss Franc</item>
+        <item>South African Rand</item>
+        <item>Japanese Yen</item>
+        <item>Turkish Lira</item>
+        <item>Hong Kong Dollar</item>
+        <item>Malaysian Ringit</item>
+        <item>Thai Baht</item>
+        <item>Croatian Kuna</item>
+        <item>Norwegian Krone</item>
+        <item>Indonesian Rupiah</item>
+        <item>Danish Krone</item>
+        <item>Czech Koruna</item>
+        <item>Hungarian Forint</item>
+        <item>Pound Sterling</item>
+        <item>South Korean Won</item>
+        <item>Icelandic Krona</item>
+        <item>Singapore Dollar</item>
+        <item>Brazilian Real</item>
+        <item>Polish Zloty</item>
+        <item>Romanian Leu</item>
+    </string-array>
+
+    <!-- translation -->
+    <string name="favTrans">Favorites</string>
+    <string name="greetTrans">Greetings</string>
+    <string name="emergTrans">Emergency</string>
+    <string name="quesTrans">Questions</string>
+    <string name="transMenuHead">Translations</string>
+
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
+    <!-- Reminder -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="clear_sky">ic_w_clear_sky</string>
+    <string name="few_clouds">ic_w_few_clouds</string>
+    <string name="scattered_clouds">ic_w_scattered_clouds</string>
+    <string name="broken_clouds">ic_w_broken_clouds</string>
+    <string name="shower_rain">ic_w_shower_rain</string>
+    <string name="rain">ic_w_rain</string>
+    <string name="thunderstorm">ic_w_thunderstorm</string>
+    <string name="snow">ic_w_snow</string>
+    <string name="mist">ic_w_mist</string>
+
+    <string name="time_picker_fragment_start">time_picker_fragment_start</string>
+    <string name="time_picker_fragment_end">time_picker_fragment_end</string>
+    <string name="reminder_obj_key">reminder_obj_key</string>
+
+
+    <string name="contact_name_key">contact_name_key</string>
+    <string name="contact_number_key">contact_number_key</string>
+    <string name="contact_location_key">contact_location_key</string>
+    <string name="contact_bitmap_bytes_key">contact_bitmap_bytes_key</string>
+    <string name="reminder_no_location_input_error">*Please enter a location</string>
+
+
+    <!-- Public Holidays -->
+    <string name="holiday_name_sample">CHRISTMAS</string>
+    <string name="holiday_date_sample">December 25</string>
+
+    <!-- Weather -->
+    <string name="weather_location_sample">Montreal, QC</string>
+    <string name="weather_date_sample">Wed, 13 March</string>
+    <string name="weather_temperature_sample">25°</string>
+    <string name="weather_condition_sample">Cloudy</string>
+    <string name="weather_humidity_sample">HUMIDITY</string>
+    <string name="weather_wind_sample">WIND</string>
+    <string name="weather_current_humidity_sample">40%</string>
+    <string name="weather_current_wind_sample">2.00km/h</string>
+    <string name="weather_forecast_date_sample">Thu</string>
+    <string name="weather_forecast_temperature_sample">15°</string>
+
+
+</resources>
